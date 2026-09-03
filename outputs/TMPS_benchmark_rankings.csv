@@ -1,0 +1,53 @@
+Scenario,Entity,Score used for ranking,Rank,Interpretation boundary
+Full TMPS,APEX1,9.0,1,Primary transparent multi-domain score with traceability penalties.
+Full TMPS,ARID5B,6.0,2,Primary transparent multi-domain score with traceability penalties.
+Full TMPS,TNFRSF10C,6.0,2,Primary transparent multi-domain score with traceability penalties.
+Full TMPS,BACE1,5.5,4,Primary transparent multi-domain score with traceability penalties.
+Full TMPS,DHFR,5.5,4,Primary transparent multi-domain score with traceability penalties.
+Full TMPS,SEC23B,5.5,4,Primary transparent multi-domain score with traceability penalties.
+Full TMPS,HADHB,5.0,7,Primary transparent multi-domain score with traceability penalties.
+Full TMPS,PADI4,5.0,7,Primary transparent multi-domain score with traceability penalties.
+Full TMPS,RFC4,5.0,7,Primary transparent multi-domain score with traceability penalties.
+Full TMPS,SF3B3,5.0,7,Primary transparent multi-domain score with traceability penalties.
+Full TMPS,PERP,4.5,11,Primary transparent multi-domain score with traceability penalties.
+Full TMPS,PRDX2,2.5,12,Primary transparent multi-domain score with traceability penalties.
+Full TMPS,KDM1A,1.0,13,Primary transparent multi-domain score with traceability penalties.
+Simple unweighted evidence sum,APEX1,9.0,1,Naive evidence aggregation without traceability penalties.
+Simple unweighted evidence sum,ARID5B,6.0,2,Naive evidence aggregation without traceability penalties.
+Simple unweighted evidence sum,TNFRSF10C,6.0,2,Naive evidence aggregation without traceability penalties.
+Simple unweighted evidence sum,BACE1,5.5,4,Naive evidence aggregation without traceability penalties.
+Simple unweighted evidence sum,DHFR,5.5,4,Naive evidence aggregation without traceability penalties.
+Simple unweighted evidence sum,SEC23B,5.5,4,Naive evidence aggregation without traceability penalties.
+Simple unweighted evidence sum,HADHB,5.0,7,Naive evidence aggregation without traceability penalties.
+Simple unweighted evidence sum,PADI4,5.0,7,Naive evidence aggregation without traceability penalties.
+Simple unweighted evidence sum,PERP,5.0,7,Naive evidence aggregation without traceability penalties.
+Simple unweighted evidence sum,RFC4,5.0,7,Naive evidence aggregation without traceability penalties.
+Simple unweighted evidence sum,SF3B3,5.0,7,Naive evidence aggregation without traceability penalties.
+Simple unweighted evidence sum,PRDX2,3.5,12,Naive evidence aggregation without traceability penalties.
+Simple unweighted evidence sum,KDM1A,1.0,13,Naive evidence aggregation without traceability penalties.
+Positive evidence-domain count,APEX1,4.0,1,"Counts whether each evidence domain is present, regardless of strength."
+Positive evidence-domain count,ARID5B,2.0,2,"Counts whether each evidence domain is present, regardless of strength."
+Positive evidence-domain count,BACE1,2.0,2,"Counts whether each evidence domain is present, regardless of strength."
+Positive evidence-domain count,DHFR,2.0,2,"Counts whether each evidence domain is present, regardless of strength."
+Positive evidence-domain count,HADHB,2.0,2,"Counts whether each evidence domain is present, regardless of strength."
+Positive evidence-domain count,PADI4,2.0,2,"Counts whether each evidence domain is present, regardless of strength."
+Positive evidence-domain count,PERP,2.0,2,"Counts whether each evidence domain is present, regardless of strength."
+Positive evidence-domain count,PRDX2,2.0,2,"Counts whether each evidence domain is present, regardless of strength."
+Positive evidence-domain count,RFC4,2.0,2,"Counts whether each evidence domain is present, regardless of strength."
+Positive evidence-domain count,SEC23B,2.0,2,"Counts whether each evidence domain is present, regardless of strength."
+Positive evidence-domain count,SF3B3,2.0,2,"Counts whether each evidence domain is present, regardless of strength."
+Positive evidence-domain count,TNFRSF10C,2.0,2,"Counts whether each evidence domain is present, regardless of strength."
+Positive evidence-domain count,KDM1A,1.0,13,"Counts whether each evidence domain is present, regardless of strength."
+Genetic-evidence-only ranking,APEX1,3.0,1,Approximates a single-domain MR-first ranking and ignores contextual evidence.
+Genetic-evidence-only ranking,ARID5B,3.0,1,Approximates a single-domain MR-first ranking and ignores contextual evidence.
+Genetic-evidence-only ranking,BACE1,3.0,1,Approximates a single-domain MR-first ranking and ignores contextual evidence.
+Genetic-evidence-only ranking,DHFR,3.0,1,Approximates a single-domain MR-first ranking and ignores contextual evidence.
+Genetic-evidence-only ranking,HADHB,3.0,1,Approximates a single-domain MR-first ranking and ignores contextual evidence.
+Genetic-evidence-only ranking,PADI4,3.0,1,Approximates a single-domain MR-first ranking and ignores contextual evidence.
+Genetic-evidence-only ranking,PERP,3.0,1,Approximates a single-domain MR-first ranking and ignores contextual evidence.
+Genetic-evidence-only ranking,RFC4,3.0,1,Approximates a single-domain MR-first ranking and ignores contextual evidence.
+Genetic-evidence-only ranking,SEC23B,3.0,1,Approximates a single-domain MR-first ranking and ignores contextual evidence.
+Genetic-evidence-only ranking,SF3B3,3.0,1,Approximates a single-domain MR-first ranking and ignores contextual evidence.
+Genetic-evidence-only ranking,TNFRSF10C,3.0,1,Approximates a single-domain MR-first ranking and ignores contextual evidence.
+Genetic-evidence-only ranking,PRDX2,2.5,12,Approximates a single-domain MR-first ranking and ignores contextual evidence.
+Genetic-evidence-only ranking,KDM1A,0.0,13,Approximates a single-domain MR-first ranking and ignores contextual evidence.
