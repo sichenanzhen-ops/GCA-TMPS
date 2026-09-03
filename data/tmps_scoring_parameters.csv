@@ -1,0 +1,7 @@
+domain,maximum_points,primary_rule,boundary
+genetic_association_support,3,"MR evidence, nSNP, F-statistic, heterogeneity, pleiotropy, and Steiger consistency","Prioritization support only; not causal validation"
+colocalization_transcriptomic_support,3,"SMR/HEIDI support and expression-context direction","Shared-architecture/context support only"
+protein_level_support,2,"pQTL MR and pQTL traceability","Requires complete sensitivity traceability for strong interpretation"
+inflammatory_oxidative_stress_context,1,"Focused disease-relevant inflammatory, oxidative-stress, or DNA-repair context","Contextual support only"
+regulatory_context_support,1,"Exploratory upstream-regulatory evidence","Exploratory regulator context only"
+traceability_penalty,NA,"Penalty for incomplete instruments, unavailable HEIDI, incomplete pQTL sensitivity, or excluded nSNP=0 mediation traces","Penalty lowers evidence tier and interpretation strength"
