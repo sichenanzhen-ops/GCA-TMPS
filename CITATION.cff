@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use TMPS, please cite this software and the associated manuscript."
+title: "Therapy-anchored Multi-omics Prioritization Score for giant cell arteritis"
+version: "1.0.0"
+date-released: "2026-09-03"
+type: software
+authors:
+  - family-names: "Chen"
+    given-names: "Si"
+  - family-names: "Luan"
+    given-names: "Haixia"
+  - family-names: "Wang"
+    given-names: "Yan"
+  - family-names: "Zhang"
+    given-names: "Yongzhi"
+  - family-names: "Liu"
+    given-names: "Rongfeng"
+  - family-names: "Wang"
+    given-names: "Chao"
+  - family-names: "Zeng"
+    given-names: "Xiaoli"
+  - family-names: "Yuan"
+    given-names: "Hui"
+repository-code: "https://github.com/sichenanzhen-ops/GCA-TMPS"
+abstract: "TMPS is a transparent, reproducible, rule-based integrative genomics framework for candidate-mechanism prioritization in giant cell arteritis."
+keywords:
+  - giant cell arteritis
+  - integrative genomics
+  - multi-omics
+  - candidate prioritization
+  - Mendelian randomization
+  - reproducible research
+license: MIT
