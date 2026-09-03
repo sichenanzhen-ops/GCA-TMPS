@@ -1,0 +1,13 @@
+Analysis block,Scenario,Weighting/removed domain,Top-ranked entity,APEX1 score,APEX1 rank,APEX1 tier,PRDX2 score,PRDX2 rank,PRDX2 tier,KDM1A score,KDM1A rank,KDM1A tier,Interpretation
+Ablation,Full TMPS,none,APEX1,9,1,Tier 1,2.5,12,Exploratory,1,13,Exploratory regulator,APEX1 remained top-ranked
+Ablation,No protein-level evidence,protein,APEX1,7,1,Tier 1,1.5,12,Exploratory,1,13,Exploratory regulator,APEX1 remained top-ranked
+Ablation,No SMR/expression-context evidence,coloc_expr,APEX1,6,1,Tier 1,2.5,11,Exploratory,1,13,Exploratory regulator,APEX1 remained top-ranked
+Ablation,No inflammatory/redox context,inflammatory,APEX1,8,1,Tier 1,2.5,12,Exploratory,1,13,Exploratory regulator,APEX1 remained top-ranked
+Ablation,No regulatory-context evidence,regulatory,APEX1,9,1,Tier 1,2.5,12,Exploratory,0,13,Exploratory regulator,APEX1 remained top-ranked
+Ablation,No traceability penalty,penalty,APEX1,9,1,Tier 1,3.5,12,Exploratory,1,13,Exploratory regulator,APEX1 remained top-ranked
+Parameter robustness,Primary weights,genetic=1.0; coloc_expr=1.0; protein=1.0; inflammatory=1.0; regulatory=1.0; penalty=1.0,APEX1,9,1,Tier 1,2.5,12,Exploratory,1,13,Exploratory regulator,APEX1 remained top-ranked; PRDX2 remained exploratory
+Parameter robustness,Genetic-heavy weights,genetic=1.25; coloc_expr=0.85; protein=0.85; inflammatory=0.75; regulatory=0.75; penalty=1.0,APEX1,8.75,1,Tier 1,2.975,12,Exploratory,0.75,13,Exploratory regulator,APEX1 remained top-ranked; PRDX2 remained exploratory
+Parameter robustness,Colocalization/expression-heavy weights,genetic=0.85; coloc_expr=1.25; protein=0.85; inflammatory=0.75; regulatory=0.75; penalty=1.0,APEX1,8.75,1,Tier 1,1.975,12,Exploratory,0.75,13,Exploratory regulator,APEX1 remained top-ranked; PRDX2 remained exploratory
+Parameter robustness,Protein-heavy weights,genetic=0.9; coloc_expr=0.9; protein=1.5; inflammatory=0.75; regulatory=0.75; penalty=1.0,APEX1,9.15,1,Tier 1,2.75,12,Exploratory,0.75,13,Exploratory regulator,APEX1 remained top-ranked; PRDX2 remained exploratory
+Parameter robustness,Penalty-heavy weights,genetic=1.0; coloc_expr=1.0; protein=1.0; inflammatory=1.0; regulatory=1.0; penalty=1.5,APEX1,9,1,Tier 1,2,12,Exploratory,1,13,Exploratory regulator,APEX1 remained top-ranked; PRDX2 remained exploratory
+Parameter robustness,Equal-normalized domains,genetic=0.333; coloc_expr=0.333; protein=0.5; inflammatory=1.0; regulatory=1.0; penalty=1.0,APEX1,4,1,Tier 2,0.333,13,Exploratory,1,12,Exploratory regulator,APEX1 remained top-ranked; PRDX2 remained exploratory
