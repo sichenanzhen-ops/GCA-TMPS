@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "title": "Therapy-anchored Multi-omics Prioritization Score for giant cell arteritis",
+    "upload_type": "software",
+    "description": "TMPS is a transparent, reproducible, rule-based integrative genomics framework for candidate-mechanism prioritization in giant cell arteritis. The package includes example input and output files, prespecified scoring parameters, scoring scripts, ablation and parameter-robustness analyses, benchmark ranking, and random-weight Monte Carlo robustness analysis.",
+    "creators": [
+      {"name": "Chen, Si"},
+      {"name": "Luan, Haixia"},
+      {"name": "Wang, Yan"},
+      {"name": "Zhang, Yongzhi"},
+      {"name": "Liu, Rongfeng"},
+      {"name": "Wang, Chao"},
+      {"name": "Zeng, Xiaoli"},
+      {"name": "Yuan, Hui"}
+    ],
+    "keywords": [
+      "giant cell arteritis",
+      "integrative genomics",
+      "multi-omics",
+      "candidate prioritization",
+      "Mendelian randomization",
+      "reproducible research"
+    ],
+    "license": "MIT",
+    "version": "1.0.0",
+    "publication_date": "2026-09-03",
+    "access_right": "open"
+  }
+}
